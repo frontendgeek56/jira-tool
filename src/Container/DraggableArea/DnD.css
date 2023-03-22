@@ -1,0 +1,108 @@
+.drag-h-group{
+    display: grid;
+/* grid-template-columns: auto auto auto auto auto; */
+padding-left: 15px;
+  grid-template-columns: repeat(auto-fill,295px);
+}
+.dnd-group{
+  min-height: 380px;
+  border:1px solid black;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.dnd-h-group{
+  background-color:dimgray;
+  padding: 5px;
+  color: white;
+  
+}
+.dnd-item {
+  height: 380px;
+  overflow-y: auto;
+
+}
+.dnd-item ul{
+  width:100%;
+  /* border:2px solid blue; */
+  min-height: 380px;
+  background-color:lightgray
+}
+.dnd-item ul li{
+  padding: 0px;
+  margin: 5px;
+  background-color:lightgoldenrodyellow;
+}
+.ticket{
+  border: 2px solid green;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.title{
+  width: 96%;
+  display: inline-block;
+}
+
+.title p:nth-child(1){
+
+  display: inline-block;
+  font-weight: 700;
+}
+.title p:nth-child(2){  
+  position: absolute;
+  top: 15px;
+  font-size: 12px;
+  width: auto;
+  border: none;
+  cursor: pointer;
+  color: black;
+  right: 6px;
+  display: none;
+  background-color: red;
+  border-radius: 30%;
+  padding: 2px;
+}
+
+.ticket:hover .title p:nth-child(2){
+  display: inline-block;
+}
+.low{
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 10px 5px 10px;
+}
+
+.medium{
+  background-color:yellow;
+  color:black;
+  border-radius: 3px;
+  padding: 3px 10px 5px 10px;
+}
+
+.high{
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 10px 5px 10px;
+}
+
+
+.done{
+  background-color:green;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 10px 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+     
